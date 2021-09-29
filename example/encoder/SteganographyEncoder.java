@@ -184,6 +184,7 @@ public class SteganographyEncoder {
                 curColor--;
             }
             result[i] = oneByte;
+            //System.out.println(oneByte+"\n");
             charOffset %= 8;
         }
         return result;
