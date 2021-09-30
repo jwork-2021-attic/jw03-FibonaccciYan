@@ -12,7 +12,7 @@
 
 这两张图你看得出区别么？你应该是看不出来的。但其实两张图并不一样，后者为一张“隐写术图”（[Steganography](https://zh.wikipedia.org/zh/隐写术))。
 
-我将一个实现冒泡排序的BubbleSorter类的字节码编码进了第一张泡泡图片中，得到了第二张图。为了方便起见，图片被放置在`"https://cdn.njuics.cn/example.BubbleSorter.png`这个地方。
+我将一个实现冒泡排序的BubbleSorter类的字节码编码进了第一张泡泡图片中，得到了第二张图。为了方便起见，图片被放置在`"https://cdn.njuics.cn/example.BubbleSorter.png"`这个地方。
 
 然后`W02`中的`Scene.main()`中的代码即可进行改写：
 
