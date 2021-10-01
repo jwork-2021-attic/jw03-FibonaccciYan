@@ -22,13 +22,10 @@ public class Scene {
 
         Geezer theGeezer = Geezer.getTheGeezer();
 
-        // SteganographyClassLoader loader = new SteganographyClassLoader(
-        //         new URL("https://cdn.njuics.cn/example.BubbleSorter.png"));
-
         SteganographyClassLoader loader = new SteganographyClassLoader(
-                new URL("file:///Users/fibonacci/Desktop/jwork2021/jw03-FibonaccciYan/example.QuickSorter.png"));
+                new URL("file:///Users/fibonacci/Desktop/jwork2021/jw03-FibonaccciYan/example.HeapSorter.png"));
 
-        Class c = loader.loadClass("example.QuickSorter");
+        Class c = loader.loadClass("example.HeapSorter");
 
         Sorter sorter = (Sorter) c.newInstance();
 

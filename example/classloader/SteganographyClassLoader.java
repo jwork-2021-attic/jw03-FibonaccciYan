@@ -37,7 +37,6 @@ public class SteganographyClassLoader extends ClassLoader {
         } catch (IOException e) {
             throw new ClassNotFoundException();
         } catch (DecodingException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
             throw new ClassNotFoundException();
         }
