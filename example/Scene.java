@@ -26,9 +26,9 @@ public class Scene {
         //         new URL("https://cdn.njuics.cn/example.BubbleSorter.png"));
 
         SteganographyClassLoader loader = new SteganographyClassLoader(
-                new URL("https://i0.hdslb.com/bfs/album/411abd1807f2713940dbbe465cd6c96137ddca84.png@518w.webp"));
+                new URL("file:///Users/fibonacci/Desktop/jwork2021/jw03-FibonaccciYan/example.QuickSorter.png"));
 
-        Class c = loader.loadClass("example.HeapSorter");
+        Class c = loader.loadClass("example.QuickSorter");
 
         Sorter sorter = (Sorter) c.newInstance();
 

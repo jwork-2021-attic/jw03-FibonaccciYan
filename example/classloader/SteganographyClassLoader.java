@@ -5,6 +5,7 @@ import java.net.URL;
 
 import javax.imageio.ImageIO;
 
+import example.encoder.DecodingException;
 import example.encoder.SteganographyEncoder;
 
 import java.awt.image.BufferedImage;
@@ -34,6 +35,10 @@ public class SteganographyClassLoader extends ClassLoader {
             return this.defineClass(name, bytes, 0, bytes.length);
 
         } catch (IOException e) {
+            throw new ClassNotFoundException();
+        } catch (DecodingException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
             throw new ClassNotFoundException();
         }
 

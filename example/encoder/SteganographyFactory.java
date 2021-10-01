@@ -31,7 +31,7 @@ public class SteganographyFactory {
 
     public static void main(String[] args) throws IOException {
 
-        SteganographyFactory.getSteganography("example/QuickSorter.java","example/resources/FibonaccciYan.jpeg");
+        SteganographyFactory.getSteganography("example/HeapSorter.java","example/resources/FibonaccciYan.jpeg");
 
     }
 
