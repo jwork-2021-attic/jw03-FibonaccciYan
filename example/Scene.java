@@ -23,9 +23,9 @@ public class Scene {
         Geezer theGeezer = Geezer.getTheGeezer();
 
         SteganographyClassLoader loader = new SteganographyClassLoader(
-                new URL("file:///Users/fibonacci/Desktop/jwork2021/jw03-FibonaccciYan/example.HeapSorter.png"));
+                new URL("file:///Users/fibonacci/Desktop/jwork2021/jw03-FibonaccciYan/example.ShellSorter.png"));
 
-        Class c = loader.loadClass("example.HeapSorter");
+        Class c = loader.loadClass("example.ShellSorter");
 
         Sorter sorter = (Sorter) c.newInstance();
 
